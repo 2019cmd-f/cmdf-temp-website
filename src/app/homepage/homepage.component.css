@@ -1,0 +1,58 @@
+.background {
+    /* background-image: url("../../assets/homepage-background.png") */
+    background-image: linear-gradient(#47A3B2, #89CDD8)
+}
+
+.navbar {
+    background-color: #89CDD8;
+    font-family: 'Nunito Bold', sans-serif;
+    font-size: 20px;
+}
+
+.navbar-brand {
+    position: absolute;
+    bottom: 8px;
+}
+
+.main-graphic {
+    position: relative;
+    left: 8vw;
+    top: 10vh;
+    width: 50%;
+    height: auto;
+    float: left;
+}
+
+.jumbotron {
+    background-color: transparent !important;
+    position: relative;
+    float: left;
+    left: 5%;
+    top: 10%;
+}
+
+.social-media-button {
+    float: right;
+    margin: 3px;
+}
+
+#title {
+    font-family: 'Nunito Semibold', sans-serif;
+    color: white;
+    font-size: 40px;
+    text-align: right;
+}
+
+#date {
+    font-family: 'Nunito Semibold', sans-serif;
+    color: #2E2E2E;
+    font-size: 24px;
+    text-align: right;
+    line-height: 150%;
+}
+
+#find-bar {
+    position: relative;
+    float: right;
+    margin-top: 30px;
+}
