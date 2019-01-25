@@ -1,10 +1,15 @@
 import { Component } from '@angular/core';
+import { Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
+
 export class AppComponent {
-  title = 'cmdf-website';
+  constructor(private title: Title) {
+    let currentTitle = this.title.getTitle();
+    this.title.setTitle('cmd-f');
+  }
 }

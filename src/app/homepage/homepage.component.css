@@ -1,11 +1,11 @@
 .background {
     /* background-image: url("../../assets/homepage-background.png") */
-    background-image: linear-gradient(#47A3B2, #89CDD8)
+    background-image: linear-gradient(rgb(25, 144, 162), rgb(97, 202, 218))
 }
 
 .navbar {
     background-color: #89CDD8;
-    font-family: 'Nunito Bold', sans-serif;
+    font-family: 'Nunito Semibold', sans-serif;
     font-size: 20px;
 }
 
@@ -16,9 +16,9 @@
 
 .main-graphic {
     position: relative;
-    left: 8vw;
-    top: 10vh;
-    width: 50%;
+    left: 3vw;
+    top: 15vh;
+    width: 850px;
     height: auto;
     float: left;
 }
@@ -26,20 +26,35 @@
 .jumbotron {
     background-color: transparent !important;
     position: relative;
-    float: left;
-    left: 5%;
-    top: 10%;
+    float: right;
+    right: 8vw;
+    top: 6vh;
 }
 
 .social-media-button {
     float: right;
-    margin: 3px;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+.nav {
+    float: right !important;
+    margin-right: 20px;
+}
+
+.nav-link:hover {
+    text-decoration: underline !important;
+    background-color: transparent !important;
+}
+
+.nav-link {
+    color: white;
 }
 
 #title {
     font-family: 'Nunito Semibold', sans-serif;
     color: white;
-    font-size: 40px;
+    font-size: 50px;
     text-align: right;
 }
 
@@ -49,10 +64,36 @@
     font-size: 24px;
     text-align: right;
     line-height: 150%;
+    margin-top: 30px;
 }
 
 #find-bar {
     position: relative;
     float: right;
-    margin-top: 30px;
+    margin-top: 10px;
+    margin-left: 13vw;
 }
+
+#join-us {
+    position: relative;
+    margin-top:10px;
+    text-align: right;
+    font-size: 18px;
+    font-family: 'Zilla Slab';
+    color: white;
+}
+
+#apply-button {
+    position: absolute;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, 0%);
+    -ms-transform: translate(-50%, 0%);
+    -webkit-transform: translate(-50%, 0%);
+    -moz-transform: translate(-50%, 0%);
+    -o-transform: translate(-50%, 0%);
+    top: 86.5vh;
+}
+
+
+
