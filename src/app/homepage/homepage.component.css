@@ -1,76 +1,71 @@
 .background {
     background-image: linear-gradient(rgb(25, 144, 162), rgb(97, 202, 218));
-    height: 84vh;
+    height: 100vh;
     width: 100vw;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
 }
 
 .navbar {
     background-color: #89CDD8;
     font-family: 'Nunito Semibold', sans-serif;
-    font-size: 20px;
+    font-size: 36px;
     margin: 0;
     padding: 0;
 }
 
-.navbar-brand {
-    position: absolute;
-    bottom: 8px;
+.nav-link:hover {
+    text-decoration: none !important;
+    background: transparent;
 }
 
 .main-graphic {
+    display: block;
     position: relative;
-    left: 3vw;
-    top: 8vh;
-    width: 60%;
+    width: 50%;
     height: auto;
-    float: left;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .jumbotron {
-    background-color: transparent !important;
-    position: relative;
-    float: right;
-    right: 8vw;
-    top: 6vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background: transparent !important;
 }
 
 .social-media-button {
-    float: right;
     margin-left: 10px;
     margin-top: 30px;
+    float: right;
 }
 
 .nav {
     float: right !important;
-    margin-right: 20px;
-}
-
-.nav-link:hover {
-    text-decoration: underline !important;
-    background-color: transparent !important;
-}
-
-.nav-link {
-    color: white;
 }
 
 #title {
     font-family: 'Nunito Semibold', sans-serif;
     color: white;
     font-size: 50px;
-    text-align: right;
+    text-align: center;
+    position: relative;
+    display: block;
+    top: 25px;
 }
 
 #date {
+    position: relative;
     font-family: 'Nunito Semibold', sans-serif;
     color: #2E2E2E;
     font-size: 24px;
-    text-align: right;
+    text-align: center;
     line-height: 150%;
-    margin-top: 30px;
+    top: 30px;
 }
 
 #find-bar {
@@ -82,14 +77,21 @@
 
 #join-us {
     position: relative;
-    margin-top:10px;
-    text-align: right;
-    font-size: 18px;
+    top: 50px;
+    text-align: center;
+    font-size: 24px;
     font-family: 'Zilla Slab';
     color: white;
+    margin: 0;
 }
 
 #apply-button {
+    height: 6vh;
+    width: auto;
+    margin-right: 1vw;
+}
+
+#buttons {
     position: absolute;
     left: 50%;
     margin-right: -50%;
@@ -98,7 +100,7 @@
     -webkit-transform: translate(-50%, 0%);
     -moz-transform: translate(-50%, 0%);
     -o-transform: translate(-50%, 0%);
-    top: 86.5vh;
+    top: 86vh;
 }
 
 
