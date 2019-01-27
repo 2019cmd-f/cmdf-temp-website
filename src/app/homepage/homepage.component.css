@@ -1,12 +1,18 @@
 .background {
-    /* background-image: url("../../assets/homepage-background.png") */
-    background-image: linear-gradient(rgb(25, 144, 162), rgb(97, 202, 218))
+    background-image: linear-gradient(rgb(25, 144, 162), rgb(97, 202, 218));
+    height: 84vh;
+    width: 100vw;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .navbar {
     background-color: #89CDD8;
     font-family: 'Nunito Semibold', sans-serif;
     font-size: 20px;
+    margin: 0;
+    padding: 0;
 }
 
 .navbar-brand {
