@@ -1,5 +1,4 @@
 .background {
-    position: absolute;
     background: linear-gradient(rgb(25, 144, 162), rgb(97, 202, 218));
     background-position: center;
     background-size: cover;
@@ -62,7 +61,7 @@
     position: relative;
     font-family: 'Nunito Semibold', sans-serif;
     color: #2E2E2E;
-    font-size: 3vh;
+    font-size: 24px;
     text-align: center;
     line-height: 150%;
     top: 25px;
@@ -100,4 +99,13 @@
     margin-left:-75px;
     bottom: 15px;
     position: absolute
+}
+
+#nwlogo {
+    width: 3%;
+    float: right;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    display: block;
+    
 }
