@@ -13,20 +13,23 @@
     width: 8%;
     height: auto;
     position: relative;
-    top: -350px;
     margin-left: auto;
     margin-right: auto;
 }
 
+.button-mess {
+    width: 100%;
+    position: absolute;
+}
+
 #subtitle {
     display: block;
-    position: relative;
-    top: -335px;
     font-family: Nunito, sans-serif;
     font-size: 28px;
     text-align: center;
     line-height: 150%;
     width: 80%;
+    margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
     color: #F29E9F;
@@ -34,19 +37,16 @@
 
 #description1 {
     text-align: left;
-    position: relative;
-    top: -300px;
     font-family: Nunito, sans-serif;
     font-size: 19px;
     width: 80%;
+    margin-top: 60px;
     margin-left: auto;
     margin-right: auto;
 }
 
 #description2 {
     text-align: left;
-    position: relative;
-    top: -280px;
     font-family: Nunito, sans-serif;
     font-size: 19px;
     width: 80%;
@@ -56,12 +56,15 @@
 
 #description3 {
     text-align: left;
-    position: relative;
-    bottom: 25px;
     width: 80%;
     font-size: 15px;
     font-family: Nunito, sans-serif;
     color: #FFA63D;
+    margin-top: 100px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.jumbotron {
+    background: transparent !important;
 }
